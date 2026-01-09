@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid #eee;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #e30613;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.phone-btn {
+  background: #e30613;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+.hero {
+  min-height: 30vh;           
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;  
+  overflow: hidden;          
+
+  background: #e30613;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 60px 0;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-text {
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  background: #fff;
+  color: #e30613;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-image img {
+  max-height: 280px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+
+.services {
+  margin-top: -60px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.service-card span {
+  display: block;
+  margin-top: 8px;
+  color: #e30613;
+  font-size: 14px;
+}
+
+.contact {
+  position: absolute;
+  bottom: 20px;   
+  left: 20px;
+  padding: 20px 0;
+  background: #ffffff;
+  color: #0a0a0a;
+}
+
+.contact-box {
+  text-align: center;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  z-index: 9999;
+}
+
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+
